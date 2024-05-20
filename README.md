@@ -17,24 +17,33 @@ Follow these steps to set up the project locally:
    npm install
    ```
 
-3. **Set Up Prisma:**
+3.**Install Prisma:**
+   If you haven't installed Prisma globally, you can install it as a dev dependency for this project by running:
+   ```bash
+   npm install prisma --save-dev
+   ```
+
+4. **Set Up Prisma:**
    If you haven't initialized Prisma, run:
    ```bash
    npx prisma init
    ```
 
-4. **Generate Prisma Client:**
+5. **Generate Prisma Client:**
    ```bash
    npx prisma generate
    ```
 
-5. **Start the Server:**
+6. **Start the Server:**
    ```bash
    npm run start:dev
    ```
 
-6. **Access Swagger Documentation:**
+7. **Access Swagger Documentation:**
    Open your browser and navigate to `http://localhost:3000/api` to view the Swagger documentation for the API.
+
+8. **Main API URL:**
+   The API can be accessed at `http://localhost:3000`
 
 ## Tech Stack Used
 
@@ -62,15 +71,6 @@ Follow these steps to set up the project locally:
 
 - **Delete a Specific Book:** `DELETE /books/:id`
   - Deletes a specific book identified by its ID.
-
-#### Data Model
-
-##### Book
-
-- **id:** integer (primary key)
-- **title:** string
-- **summary:** string
-- **publishedDate:** date
 
 #### Accessing Swagger Documentation
 
