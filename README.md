@@ -25,7 +25,7 @@ Follow these steps to set up the project locally:
 
 4. **Run Migrations:**
    ```bash
-  npx prisma migrate dev
+   npx prisma migrate dev
    ```
 
 5. **Generate Prisma Client:**
