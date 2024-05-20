@@ -17,13 +17,13 @@ Follow these steps to set up the project locally:
    npm install
    ```
 
-3.**Install Prisma:**
+3. **Install Prisma:**
    If you haven't installed Prisma globally, you can install it as a dev dependency for this project by running:
    ```bash
    npm install prisma --save-dev
    ```
 
-4. **Run Migrations::**
+4. **Run Migrations:**
    ```bash
   npx prisma migrate dev
    ```
