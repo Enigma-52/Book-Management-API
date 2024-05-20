@@ -87,6 +87,12 @@ The Swagger documentation for this API is automatically generated and can be acc
 
 This will open the Swagger UI, where you can explore and interact with the API endpoints visually.
 
+
+
+![6E260184-818A-4BB1-8D36-FD17AC72B397](https://github.com/Enigma-52/Book-Management-API/assets/95529619/b4a37ea9-084e-40fa-ba68-64c3c97cf73c)
+
+
+
 ## Code
 
 All code related to the API can be found in the `src/book-module` directory.
