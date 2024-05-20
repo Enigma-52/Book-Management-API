@@ -1,4 +1,4 @@
-import {IsNumber, IsOptional, IsDate, IsString } from 'class-validator';
+import {IsNumber, IsOptional, IsISO8601, IsString } from 'class-validator';
 import { ApiProperty } from '@nestjs/swagger';
 
 export class UpdateBookDto {
@@ -14,7 +14,7 @@ export class UpdateBookDto {
   summary: string;
 
   @IsOptional()
-  @IsDate()
+  @IsISO8601({ strict: true }, { message: 'Published date must be in ISO 8601 format.' })
   @ApiProperty({ example: '2024-05-20T14:30:00Z' })
   publishedDate: Date;
 }
